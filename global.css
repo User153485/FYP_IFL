@@ -2,3 +2,21 @@ a, body, div, form, h1, h2, h3, h4, h5, h6, img, li, nav, ul {
     margin:0;
     padding:0;
 }
+.navbar-default button.navbar-toggle.collapsed:focus,
+.navbar-default button.navbar-toggle.collapsed{
+    background-color: transparent;
+    -webkit-transition:all .4s;
+    -moz-transition:all .4s;
+    -ms-transition:all .4s;
+    -o-transition:all .4s;
+    transition:all .4s;
+}
+.navbar-default button.navbar-toggle:focus,
+.navbar-default button.navbar-toggle.collapsed:hover{
+    background-color:#ddd;
+    -webkit-transition:all .4s;
+    -moz-transition:all .4s;
+    -ms-transition:all .4s;
+    -o-transition:all .4s;
+    transition:all .4s;
+}
